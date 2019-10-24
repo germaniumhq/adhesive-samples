@@ -1,0 +1,15 @@
+= Sample BPMN Projects for Adhesive
+
+In order to facilitate learning some of the core features of Adhesive, this
+project contains sample processes to showcase features from it.
+
+
+== simple-process
+
+A project that just shows basic task chaining, and getting values from the
+names of the tasks.
+
+== rest-endpoint
+
+A project that shows how using the `message_callback` functionality allows
+pushing events into the process from a webhook.
