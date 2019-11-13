@@ -13,3 +13,8 @@ names of the tasks.
 
 A project that shows how using the `message_callback` functionality allows
 pushing events into the process from a webhook.
+
+== async-deduplication
+
+A project that illustrates how to have event deduplication, where only the last
+event is relevant for a resource, such as Kubernetes operators.
