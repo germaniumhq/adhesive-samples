@@ -16,9 +16,10 @@ pending_events: Dict[str, Any] = dict()
 def get_event_id(event) -> str:
     return event["event_id"]
 
+
 @adhesive.message('Start Event')
 def message_start_event(context):
-	# generate 100 events really fast
+    # generate 100 events really fast
     for i in range(100):
         yield {
             "index": i,
@@ -27,7 +28,7 @@ def message_start_event(context):
         }
 
 
-@adhesive.gateway('Deduplicate Events')
+@adhesive.task('Deduplicate Events')
 def deduplicate_events(context):
     global already_running
     global pending_events
