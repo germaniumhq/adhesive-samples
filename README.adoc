@@ -23,7 +23,7 @@ image:rest-endpoint/rest-endpoint.png[REST Endpoint]
 A project that illustrates how to have event deduplication, where only the last
 event is relevant for a resource, such as Kubernetes operators.
 
-image:async-deduplication[Async Event Deduplication]
+image:async-deduplication/async-deduplication.png[Async Event Deduplication]
 
 == timer-notification
 
