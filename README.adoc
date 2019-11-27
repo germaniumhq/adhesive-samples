@@ -18,3 +18,8 @@ pushing events into the process from a webhook.
 
 A project that illustrates how to have event deduplication, where only the last
 event is relevant for a resource, such as Kubernetes operators.
+
+== timer-notification
+
+How to fire a notification if a task runs more than the expected time.
+
