@@ -23,7 +23,7 @@ def get_event_id(event) -> str:
 @adhesive.message('Start Event')
 def message_start_event(context):
     # generate 100 events really fast
-    for i in range(100):
+    for i in range(10000):
         yield {
             "index": i,
             "state": "new",
